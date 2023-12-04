@@ -23,8 +23,8 @@ class SplashScreen extends StatelessWidget {
               'Renewing the world\nOne act at a time',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Colors.green, // Set your desired text color
-                fontSize: 16, // Adjust the font size as needed
+                color: Colors.green,
+                fontSize: 16,
               ),
             ),
             const SizedBox(height: 30),

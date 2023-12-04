@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:remate/backend/authentication.dart';
+import 'package:remate/screens/home_screen.dart';
 
 class LogInScreen extends StatelessWidget {
   LogInScreen({super.key});
@@ -77,6 +78,10 @@ class LogInForm extends StatelessWidget {
                 if (user != null) {
                   // Successful log in, navigate to the next screen
                   print('Log in successful! User ID: ${user.uid}');
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                  );
                 } else {
                   // Log in failed
                   print('Log in failed.');

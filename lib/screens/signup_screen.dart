@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:remate/backend/authentication.dart';
+import 'package:remate/screens/home_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({super.key});
@@ -86,6 +87,10 @@ class SignUpForm extends StatelessWidget {
 
                 if (user != null) {
                   print('Sign up successful! User ID: ${user.uid}');
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                  );
                 } else {
                   print('Sign up failed.');
                 }
