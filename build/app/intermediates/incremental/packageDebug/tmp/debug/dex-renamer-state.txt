@@ -1,0 +1,4 @@
+#Mon Dec 04 19:09:59 AST 2023
+base.0=/Users/adev/Desktop/Personal/HWs/CSC350 - Software Engineering/Remate/Capstone/remate/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

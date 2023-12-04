@@ -1,4 +1,4 @@
-package com.example.remate
+package com.example.rematee
 
 import io.flutter.embedding.android.FlutterActivity
 
